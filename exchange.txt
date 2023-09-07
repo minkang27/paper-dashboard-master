@@ -12,15 +12,6 @@
 - đổi first name === mssv 
 - đổi last name === tên sv
 - đổi username === email
-*   icon
-- form giống page table 
-- basic table === sv chưa vào lớp
-* xoá ggmap
-* blank page === xin phép nghỉ học
-- tạo form cho sv làm đơn nghỉ buổi học
-* tạo page cho gv acp nghỉ học
-
-
 _____
 
 * user profile 
@@ -31,7 +22,17 @@ thêm 1 dòng password có con mắt ẩn hiện password
 - ô 2 = sv chưa vào lớp
 - ô 3 = sv xin nghỉ
 - ô 4 = 
-* 
 
+______
+
+- tạo page mới giống table list 
+trong đó chia thành các mục : 
++ sv đi đúng h : mssv , tên , time 
++ sv đi trễ : mssv , tên , time , lý do xin đi trễ 
++ sv nghỉ học : mssv , tên 
++ sv xin nghỉ : 
+
+- tạo page sv đi trễ cho gv
+giống của tk sv , thêm cột lý do và 1 cột checkbox 
 
 
