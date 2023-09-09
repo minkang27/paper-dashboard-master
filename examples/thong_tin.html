@@ -66,10 +66,10 @@ Coded by www.creative-tim.com
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
-            <li>
+            <li class="active">
               <a href="./dashboard.html">
                 <i class="nc-icon nc-bank"></i>
-                <p>Dashboard</p>
+                <p>Điểm Danh Online</p>
               </a>
             </li>
             <li>
@@ -81,7 +81,7 @@ Coded by www.creative-tim.com
             <li>
               <a href="./form.html">
                 <i class="nc-icon nc-pin-3"></i>
-                <p>Form</p>
+                <p>Đơn Xin Phép</p>
               </a>
             </li>
             <li>
@@ -90,22 +90,28 @@ Coded by www.creative-tim.com
                 <p>Notifications</p>
               </a>
             </li>
-            <li class="active">
-              <a href="./user.html">
+            <li>
+              <a href="./thong_tin.html">
                 <i class="nc-icon nc-single-02"></i>
-                <p>User Profile</p>
+                <p>Cập Nhật Thông Tin</p>
               </a>
             </li>
             <li>
-              <a href="./tables.html">
+              <a href="./theo_doi.html">
                 <i class="nc-icon nc-tile-56"></i>
-                <p>Table List</p>
+                <p>Theo Dõi</p>
               </a>
             </li>
             <li>
-              <a href="./typography.html">
+              <a href="./thong_ke.html">
                 <i class="nc-icon nc-caps-small"></i>
-                <p>Typography</p>
+                <p>Thống Kê</p>
+              </a>
+            </li>
+            <li>
+              <a href="./thong_ke_gv.html">
+                <i class="nc-icon nc-caps-small"></i>
+                <p>Thống Kê Sau Tiết Học</p>
               </a>
             </li>
             <li class="active-pro">
@@ -237,81 +243,106 @@ Coded by www.creative-tim.com
                 </div>
                 <div class="card-footer">
                   <hr />
-                  <!-- <div class="button-container">
+                  <div class="button-container">
                     <div class="row">
                       <div class="col-lg-3 col-md-6 col-6 ml-auto">
-                        <h5>12<br /><small>Files</small></h5>
+                        <h5>12<br /><small>Tổng số buổi Học</small></h5>
                       </div>
                       <div class="col-lg-4 col-md-6 col-6 ml-auto mr-auto">
-                        <h5>2GB<br /><small>Used</small></h5>
+                        <h5>2GB<br /><small>Số buổi vắng có phép</small></h5>
                       </div>
                       <div class="col-lg-3 mr-auto">
-                        <h5>24,6$<br /><small>Spent</small></h5>
+                        <h5>
+                          24,6$<br /><small>Số buổi vắng không phép</small>
+                        </h5>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                 </div>
               </div>
-              <!-- <div class="card">
-              <div class="card-header">
-                <h4 class="card-title">Team Members</h4>
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Team Members</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled team-members">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-2 col-2">
+                          <div class="avatar">
+                            <img
+                              src="../assets/img/faces/ayo-ogunseinde-2.jpg"
+                              alt="Circle Image"
+                              class="img-circle img-no-padding img-responsive"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                          DJ Khaled
+                          <br />
+                          <span class="text-muted"><small>Offline</small></span>
+                        </div>
+                        <div class="col-md-3 col-3 text-right">
+                          <btn
+                            class="btn btn-sm btn-outline-success btn-round btn-icon"
+                            ><i class="fa fa-envelope"></i
+                          ></btn>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-2 col-2">
+                          <div class="avatar">
+                            <img
+                              src="../assets/img/faces/joe-gardner-2.jpg"
+                              alt="Circle Image"
+                              class="img-circle img-no-padding img-responsive"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                          Creative Tim
+                          <br />
+                          <span class="text-success"
+                            ><small>Available</small></span
+                          >
+                        </div>
+                        <div class="col-md-3 col-3 text-right">
+                          <btn
+                            class="btn btn-sm btn-outline-success btn-round btn-icon"
+                            ><i class="fa fa-envelope"></i
+                          ></btn>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-2 col-2">
+                          <div class="avatar">
+                            <img
+                              src="../assets/img/faces/clem-onojeghuo-2.jpg"
+                              alt="Circle Image"
+                              class="img-circle img-no-padding img-responsive"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-ms-7 col-7">
+                          Flume
+                          <br />
+                          <span class="text-danger"><small>Busy</small></span>
+                        </div>
+                        <div class="col-md-3 col-3 text-right">
+                          <btn
+                            class="btn btn-sm btn-outline-success btn-round btn-icon"
+                            ><i class="fa fa-envelope"></i
+                          ></btn>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="card-body">
-                <ul class="list-unstyled team-members">
-                  <li>
-                    <div class="row">
-                      <div class="col-md-2 col-2">
-                        <div class="avatar">
-                          <img src="../assets/img/faces/ayo-ogunseinde-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                        </div>
-                      </div>
-                      <div class="col-md-7 col-7">
-                        DJ Khaled
-                        <br />
-                        <span class="text-muted"><small>Offline</small></span>
-                      </div>
-                      <div class="col-md-3 col-3 text-right">
-                        <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i class="fa fa-envelope"></i></btn>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="row">
-                      <div class="col-md-2 col-2">
-                        <div class="avatar">
-                          <img src="../assets/img/faces/joe-gardner-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                        </div>
-                      </div>
-                      <div class="col-md-7 col-7">
-                        Creative Tim
-                        <br />
-                        <span class="text-success"><small>Available</small></span>
-                      </div>
-                      <div class="col-md-3 col-3 text-right">
-                        <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i class="fa fa-envelope"></i></btn>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="row">
-                      <div class="col-md-2 col-2">
-                        <div class="avatar">
-                          <img src="../assets/img/faces/clem-onojeghuo-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                        </div>
-                      </div>
-                      <div class="col-ms-7 col-7">
-                        Flume
-                        <br />
-                        <span class="text-danger"><small>Busy</small></span>
-                      </div>
-                      <div class="col-md-3 col-3 text-right">
-                        <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i class="fa fa-envelope"></i></btn>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
             </div>
             <div class="col-md-8">
               <div class="card card-user">
@@ -414,21 +445,21 @@ Coded by www.creative-tim.com
                           />
                         </div>
                       </div>
-                      <!-- <div class="col-md-4 pl-1">
-                      <div class="form-group">
+                      <div class="col-md-4 pl-1">
+                        <!-- <div class="form-group">
                         <label>Postal Code</label>
                         <input type="number" class="form-control" placeholder="ZIP Code">
+                      </div> -->
                       </div>
-                    </div> -->
                     </div>
-                    <!-- <div class="row">
-                      <div class="col-md-12">
+                    <div class="row">
+                      <!-- <div class="col-md-12">
                         <div class="form-group">
                           <label>About Me</label>
                           <textarea class="form-control textarea">Oh so, your weak rhyme You doubt I'll bother, reading into it</textarea>
                         </div>
-                      </div>
-                    </div> -->
+                      </div> -->
+                    </div>
                     <div class="row">
                       <div class="update ml-auto mr-auto">
                         <button type="submit" class="btn btn-primary btn-round">
